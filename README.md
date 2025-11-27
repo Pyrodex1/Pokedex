@@ -49,33 +49,6 @@ Una Pokédex construida con **React**, **JavaScript** y **Tailwind CSS**, **glas
 
 Simplemente abre el archivo `index.html` en tu navegador favorito.
 
-## 🚀 Despliegue en Vercel
-
-### Pasos para desplegar:
-
-1. **Subir a GitHub**
-   ```bash
-   git add .
-   git commit -m "Ready for Vercel deployment"
-   git push origin main
-   ```
-
-2. **Conectar con Vercel**
-   - Ve a [vercel.com](https://vercel.com)
-   - Conecta tu repositorio de GitHub
-   - Vercel detectará automáticamente que es un sitio estático
-
-3. **Configuración automática**
-   - Vercel usará la configuración en `vercel.json`
-   - No necesita build command (sitio estático)
-   - Deploy automático en cada push
-
-### Configuración incluida:
-- ✅ `vercel.json` - Configuración de rutas
-- ✅ Versiones de producción de React
-- ✅ Favicon incluido
-- ✅ Rutas relativas optimizadas
-
 ## 📁 Estructura del Proyecto
 
 ```

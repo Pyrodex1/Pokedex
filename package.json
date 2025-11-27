@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "live-server --port=3000",
     "start": "live-server --port=3000",
-    "build": "echo 'Static site ready - no build process needed'",
+    "build": "echo 'Build completed - ready for deployment'",
     "preview": "live-server --port=4173"
   },
   "keywords": [
