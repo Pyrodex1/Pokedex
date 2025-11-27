@@ -1,0 +1,35 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Una Pokédex moderna",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "start": "live-server --port=3000",
+    "build": "echo 'Build completed - ready for deployment'",
+    "preview": "live-server --port=4173"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "react",
+    "javascript",
+    "tailwindcss",
+    "glassmorphism",
+    "pokeapi"
+  ],
+  "author": "Pokédex Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
