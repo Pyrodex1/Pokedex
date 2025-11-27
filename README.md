@@ -45,9 +45,38 @@ Una Pokédex construida con **React**, **JavaScript** y **Tailwind CSS**, **glas
    http://localhost:3000
    ```
 
-### Opción 2: Abrir Directamente
+### Opción 2: Uso Directo
 
 Simplemente abre el archivo `index.html` en tu navegador favorito.
+
+## 🚀 Despliegue
+
+### Vercel (Recomendado)
+
+1. **Conectar con GitHub**
+   - Sube tu código a GitHub
+   - Conecta tu repositorio con Vercel
+
+2. **Configuración automática**
+   - Vercel detectará la configuración en `vercel.json`
+   - El build se ejecutará automáticamente
+
+3. **Variables de entorno** (si es necesario)
+   ```bash
+   # No se requieren para este proyecto
+   ```
+
+### Netlify
+
+1. **Drag & Drop**
+   - Arrastra la carpeta del proyecto a Netlify
+   - O conecta con tu repositorio de GitHub
+
+2. **Configuración de build**
+   ```
+   Build command: npm run build
+   Publish directory: public
+   ```
 
 ## 📁 Estructura del Proyecto
 

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "live-server --port=3000",
     "start": "live-server --port=3000",
-    "build": "echo 'Build completed - ready for deployment'",
+    "build": "mkdir -p public && cp index.html public/ && cp -r src public/ && echo 'Build completed - ready for deployment'",
+    "build:vercel": "echo 'Static site - no build needed'",
     "preview": "live-server --port=4173"
   },
   "keywords": [
